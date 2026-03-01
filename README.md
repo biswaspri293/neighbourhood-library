@@ -148,10 +148,10 @@ http://localhost:8000/docs
 
 ## 5. Run Frontend
 Install node 18+ if not installed : https://nodejs.org \
-####1.After installation, verify: 
+####1.After installation, verify: \
 node -v \
 npm -v \
-####2. Run app:
+####2. Run app:\
 cd frontend\
 npm run build \
 npm start
