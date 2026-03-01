@@ -136,7 +136,7 @@ pip install -r requirements.txt
 
 ## 3. Configure Environment
 
-Create `.env` file with PostgreSQL connection string. And make sure your local postgres server is up and running on port 5432.
+Create `.env` file with PostgreSQL connection details and base api url. And make sure your local postgres server is up and running on port 5432.
 
 ## 4. Run Backend
 
