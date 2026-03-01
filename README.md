@@ -116,13 +116,10 @@ rather than advanced UX design.
 
 # ⚙ Environment Configuration
 
-Create a `.env` file:
-
-DATABASE_URL=postgresql://postgres:postgres@db:5432/library\
-NEXT_PUBLIC_API_BASE=http://localhost:8000/api
+Create a `.env` file adding db configuration and api base url.
 
 The `.env` file is excluded from version control.
-`.env.example` added for reference.
+`.env.example` added for reference. 
 
 ------------------------------------------------------------------------
 
