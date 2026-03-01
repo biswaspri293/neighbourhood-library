@@ -116,13 +116,10 @@ rather than advanced UX design.
 
 # ⚙ Environment Configuration
 
-Create a `.env` file:
-
-DATABASE_URL=postgresql://postgres:postgres@db:5432/library\
-NEXT_PUBLIC_API_BASE=http://localhost:8000/api
+Create a `.env` file adding db configuration and api base url.
 
 The `.env` file is excluded from version control.
-`.env.example` added for reference.
+`.env.example` added for reference. 
 
 ------------------------------------------------------------------------
 
@@ -139,7 +136,7 @@ pip install -r requirements.txt
 
 ## 3. Configure Environment
 
-Create `.env` file with PostgreSQL connection string. And make sure your local postgres server is up and running on port 5432.
+Create `.env` file with PostgreSQL connection details and base api url. And make sure your local postgres server is up and running on port 5432.
 
 ## 4. Run Backend
 
@@ -151,10 +148,10 @@ http://localhost:8000/docs
 
 ## 5. Run Frontend
 Install node 18+ if not installed : https://nodejs.org \
-####1.After installation, verify: 
+####1.After installation, verify: \
 node -v \
 npm -v \
-####2. Run app:
+####2. Run app:\
 cd frontend\
 npm run build \
 npm start
